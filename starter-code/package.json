@@ -1,0 +1,26 @@
+{
+  "name": "skilled-elearning",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FrancisoRocha/Skilled-e-learning-landing-page.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FrancisoRocha/Skilled-e-learning-landing-page/issues"
+  },
+  "homepage": "https://github.com/FrancisoRocha/Skilled-e-learning-landing-page#readme",
+  "devDependencies": {
+    "glob": "^11.0.0",
+    "gulp": "^5.0.0",
+    "gulp-sass": "^5.1.0",
+    "sass": "^1.79.3",
+    "sharp": "^0.33.5"
+  }
+}
