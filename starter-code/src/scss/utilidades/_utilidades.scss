@@ -1,60 +1,21 @@
 @use 'base/variables' as v;
 
-// BOTON UNO
+.text-aling{
+    text-align: left;
+}
 
-.btn-1 {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 16.8rem;
-    height: 5.9rem;
-    border: none;
-    border-radius: 2.8rem;
+.bg-blue{
     background-color: v.$AzulFuerte;
-    color: v.$Blanco;
-    font-weight: bold;
-    font-size: 1.8rem;
-    line-height: 150%;
-    cursor: pointer;
-
-    &:hover{
-        background-color: v.$AzulClaro;
-        color: v.$Negro;
-    }
 }
 
-// BOTON DOS
-
-.btn-2 {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 16.8rem;
-    height: 5.9rem;
-    border: none;
-    border-radius: 2.8rem;
+.text-color{
     color: v.$Blanco;
-    font-weight: bold;
-    font-size: 1.8rem;
-    line-height: 150%;
-    cursor: pointer;
-    background-image: linear-gradient(to top, $Rosa 0%, $Morado 100%);
 }
 
-//BOTON TRES
+.bg-whithe{
+    background-color: #ffffff;
+}
 
-.btn-3 {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 16.8rem;
-    height: 5.9rem;
-    border: none;
-    border-radius: 2.8rem;
-    color: v.$Blanco;
-    font-weight: bold;
-    font-size: 1.8rem;
-    line-height: 150%;
-    cursor: pointer;
-    background-image: linear-gradient(to top,$Naranja 0%, $Rosa 100%);
+.brd-radius{
+    border-radius: 1.5rem;
 }

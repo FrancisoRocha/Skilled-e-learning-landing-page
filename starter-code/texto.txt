@@ -35,3 +35,69 @@ without outside investment.
 Get Started
 
 Get Started
+
+
+
+
+
+
+
+.btn-1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 16.8rem;
+    height: 5.9rem;
+    border: none;
+    border-radius: 2.8rem;
+    background-color: v.$AzulFuerte;
+    color: v.$Blanco;
+    font-weight: bold;
+    font-size: 1.8rem;
+    line-height: 150%;
+    cursor: pointer;
+    transition: all 300ms;
+
+    &:hover{
+        background-color: v.$AzulClaro;
+    }
+}
+
+.boton-2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 16.8rem;
+    height: 5.9rem;
+    border: none;
+    border-radius: 2.8rem;
+    color: v.$Blanco;
+    font-weight: bold;
+    font-size: 1.8rem;
+    line-height: 150%;
+    cursor: pointer;
+    background-image: linear-gradient(to top, $Rosa 0%, $Morado 100%);
+
+    &:hover{
+        background-color: aqua;
+        background-image: none;
+    }
+}
+
+ //BOTON TRES
+
+.btn-3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 16.8rem;
+    height: 5.9rem;
+    border: none;
+    border-radius: 2.8rem;
+    color: v.$Blanco;
+    font-weight: bold;
+    font-size: 1.8rem;
+    line-height: 150%;
+    cursor: pointer;
+    background-image: linear-gradient(to top, $Naranja 0%, $Rosa 100%);
+}
