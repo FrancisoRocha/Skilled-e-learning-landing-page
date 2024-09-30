@@ -16,8 +16,40 @@
 
 <body>
 
+<header class="header">
+  <div class="nav">
+    <img src="./assets/logo-dark.svg" alt="logo skill">
+    <a href="#" class="btn-one text-color">Get Started</a>
+  </div>
+</header>
 
+
+<main class="contenido">
+  <!--SECCION UNO-->
+  <section class="section-one">
+
+    <div class="contenido-section">
+      <h1 class="title">Maximize skill, minimize budget</h1>
+      <p class="texto-uno">
+        Our modern courses across a range of in-demand skills will give you the 
+        knowledge you need to live the life you want.
+      </p>
+      <a href="#" class="btn-two text-color">Get Started</a>
+    </div>
+
+    <div class="imagen-section">
+      <picture>
+        <!-- Imagen para pantallas grandes (desktop) -->
+        <source media="(min-width: 768px)" srcset="./build/img/image-hero-tablet.avif" class="img-tabl">
+        <!-- Imagen para pantallas Medianas (Tablet) -->
+        <source media="(min-width: 1024px)" srcset="./build/img/image-hero-desktop@2x.avif" class="img-desk">
+        <!-- Imagen para pantallas pequeñas (mobile) -->
+        <img src="./build/img/image-hero-mobile.avif" alt="producto" class="image">
+      </picture>
+    </div>
+
+  </section>
+</main>
 
 </body>
-
 </html>

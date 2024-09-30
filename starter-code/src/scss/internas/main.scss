@@ -1,0 +1,108 @@
+@use "base/variables" as v;
+@use "base/mixins" as m;
+
+.section-one{
+
+    @include m.tablet{
+        @include m.grid(2, -14rem);
+    }
+
+    @include m.desktop{
+        @include m.grid(2, 3.2rem);
+    }
+
+    .contenido-section{
+        height: 82.4rem;
+        margin: 6.4rem 2rem 0 2rem;
+
+        @include m.tablet {
+            height: 35rem;
+            margin: 17rem 4.4rem 0 4.4rem;
+        }
+
+        @include m.desktop {
+            height: 40rem;
+            margin: 13rem 8rem 0 16rem;
+        }
+
+        .title{
+            font-size: 4rem;
+            color: v.$AzulFuerte;
+
+            @include m.desktop {
+                font-size: 5.6rem;
+                color: v.$AzulFuerte;
+                margin-bottom: 0;
+            }
+        }
+        .texto-uno{
+            width: 32.6rem;
+            color: v.$AzulClaro;
+            font-size: 1.8rem;
+
+            @include m.desktop {
+                width: 45.7rem;
+            }
+        }
+        .btn-two {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 16rem;
+            height: 5.9rem;
+            border-radius: 2.8rem;
+            font-weight: 700;
+            background-image: linear-gradient(to top, v.$Rosa 0%, v.$Naranja 100%);
+            margin-top: 4rem;
+            position: absolute;
+            overflow: hidden;
+
+            &::before {
+                content: "";
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                background-color: rgba(255,
+                        255,
+                        255,
+                        0);
+                /* Sin filtro en estado normal */
+                transition: background-color 0.3s ease;
+                z-index: 1;
+            }
+
+            &:hover::before {
+                background-color: rgba(255, 255, 255, 0.5);
+            }
+        }
+    }
+
+    .imagen-section{
+        position: relative;
+        top: -48rem;
+        left: 10;
+        overflow: hidden;
+        @include m.tablet {
+            width: 100%;
+            height: auto;
+            top: -9rem;
+            left: 0;
+            .image{
+                margin-top: -3rem;
+                margin-left: -2.5rem;
+            }
+        }
+        @include m.desktop {
+            width: 100%;
+            height: auto;
+            top: -9rem;
+            left: 0;
+            .image{
+                margin-left: 31rem;
+                margin-top: -2rem;
+            }
+        }
+    }
+}

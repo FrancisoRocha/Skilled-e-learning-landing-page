@@ -1,3 +1,42 @@
 @use 'base/variables' as v;
 @use 'base/mixins' as m;
 
+.header{
+
+    margin: 1.6rem 2rem 0 2rem;
+    
+
+    @include m.tablet {  
+        margin: 2.4rem 4.4rem 0 4.4rem;
+    }
+
+    @include m.desktop {  
+        margin-left: 16rem;
+        margin-right: 16rem;
+    }
+
+    .nav{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .btn-one{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 16rem;
+        height: 5.9rem;
+        background-color: v.$AzulFuerte;
+        border-radius: 2.8rem;
+        font-weight: bold;
+        font-size: 1.8rem;
+        cursor: pointer;
+        z-index: 1;
+
+        &:hover{
+            transition: all 300ms;
+            background-color: v.$AzulClaro;
+        }
+    }
+}
