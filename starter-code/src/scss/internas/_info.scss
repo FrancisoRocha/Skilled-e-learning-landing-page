@@ -13,10 +13,13 @@
         margin-top: -18rem;
     }
 
-    @include m.desktop{
+    @include m.tablet {  
+        margin-top: -2rem;
+    }
+
+    @include m.large-desktop{
         height: 96.4rem;
         padding: 6.4rem 2rem;
-        background-color: violet;
     }
 
     .info-section{
@@ -31,7 +34,7 @@
             margin: 0 auto;
         }
 
-        @include m.desktop{
+        @include m.large-desktop{
             @include m.grid(3, 3.2rem);
             width: 112rem;
             height: 75.6rem;

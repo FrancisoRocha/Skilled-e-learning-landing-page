@@ -9,6 +9,12 @@
 
     @include m.desktop{
         @include m.grid(2, 3.2rem);
+        margin-left: -12rem;
+    }
+
+    @include m.large-desktop{
+        @include m.grid(2, 3.2rem);
+        margin-left: 0;
     }
 
     .contenido-section{
@@ -39,6 +45,7 @@
             width: 32.6rem;
             color: v.$AzulClaro;
             font-size: 1.8rem;
+            line-height: 1.5;
 
             @include m.desktop {
                 width: 45.7rem;
@@ -95,6 +102,14 @@
             }
         }
         @include m.desktop {
+            top: -9rem;
+            left: 0;
+            .image{
+                margin-left: 0;
+                margin-top: -1rem;
+            }
+        }
+        @include m.large-desktop{
             top: -9rem;
             left: 0;
             .image{
