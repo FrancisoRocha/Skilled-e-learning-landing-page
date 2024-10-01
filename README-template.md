@@ -41,8 +41,8 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- live URL: [URL](https://skilled-e-learning-landing-page-zeta.vercel.app/)
+- Solution URL: [Solution URL](https://github.com/FrancisoRocha/Skilled-e-learning-landing-page)
 
 ## My process
 
