@@ -167,3 +167,6 @@ Get Started
         }
     }
 }
+
+
+        background-image: linear-gradient(to top, v.$Rosa 0%, v.$Naranja 100%);

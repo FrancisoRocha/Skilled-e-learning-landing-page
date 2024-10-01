@@ -95,13 +95,13 @@
             }
         }
         @include m.desktop {
-            width: 100%;
-            height: auto;
             top: -9rem;
             left: 0;
             .image{
-                margin-left: 31rem;
-                margin-top: -2rem;
+                width: 100%;
+                height: auto;
+                margin-left: 22rem;
+                margin-top: -1rem;
             }
         }
     }
